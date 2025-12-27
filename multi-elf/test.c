@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char **[]){
+int main(int argc, char **args){
 
     printf("hello other test\n");
     return 0;

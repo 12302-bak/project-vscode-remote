@@ -26,10 +26,8 @@
 			"type": "shell",
 			"command": "cmake",
 			"args": [
-				"-S",
-				".", // 源码目录
-				"-B",
-				"build", // 构建目录
+				"-S", ".",
+				"-B", "build",
 				"-DCMAKE_BUILD_TYPE=Debug"
 			],
 			"options": {

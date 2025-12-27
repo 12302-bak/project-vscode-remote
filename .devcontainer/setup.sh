@@ -25,7 +25,4 @@ sudo mv /tmp/sources.list /etc/apt/sources.list
 sudo apt update
 sudo apt install -y gdb file
 
-export http_proxy="http://wtfu.site:13391"
-export https_proxy="http://wtfu.site:13391"
-
 echo '✅ APT source updated and tools installed!'
